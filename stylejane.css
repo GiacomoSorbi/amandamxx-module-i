@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Ultra&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*typhography */
+
+h1 {
+  font-size: 46px;
+  text-align: center;
+  padding-top: 20px;
+}
+h2 {
+  font-size: 18px;
+  text-align: center;
+}
+h3 {
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+}
+p {
+padding: 0px 40px 0px 40px; 
+}
+
+.study h2 {
+    font-size: 62px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.practice h2 {
+    font-size: 62px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: blue;
+}
+.quote p {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text-community p {
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ 
+/* HEADER */
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: blue;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: auto;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  transition: 0.4s;
+  font-family: "Ultra", serif;
+  font-size: 100px;
+  color: blue;
+}
+
+#navbar-right a:hover {
+  background-color: blue;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+  margin: 0 20px 0 0;
+    padding-top: 64px;
+}
+
+.menu-links, .login {
+    display: inline-block;
+}
+
+
+/* CONTENT */
+
+.row {
+  margin-top: 200px;
+}
+
+.column {
+  float: top;
+  height: auto;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.blue.one{
+  height: 450px;
+  position: relative;
+}
+
+.white {
+  width: 100%;
+  background-color: white;
+  color: blue;
+}
+
+.white.two{
+  min-height: 300px;
+  position: relative;
+}
+
+.practice {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background: #FFFFFF;
+}
+
+.practice a{
+  color:blue;
+  text-decoration: underline;
+}
+
+.practice a:hover{
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+}
+
+.study {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.study a{
+  color: white;
+  text-decoration: underline;
+}
+
+.study a:hover{
+  color: blue;
+  background-color: white;
+  text-decoration: none;
+}
+.quote {
+    font-size: 34px;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    display: table;
+}
+.icon {
+    position: relative;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+}
+.imagem {
+    size:50%;
+    text-align: right;
+    padding-top: 100px;
+    padding-bottom: 125px;
+}
+.imagem2 {
+  width: 100px;
+}
+/*testemonial*/
+
+.text-community {
+    position: relative;
+    display: inline-table;
+    width: 60%;
+    height: 300px;
+    font-size: 20px;
+}
+.empty-space {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    float: right;
+}
+.testimonials {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.testimonial-single {
+    display: inline-block;
+    width: 33%;
+    height: auto;
+    min-width: 220px;
+}
+.testimonials-box {
+    margin: 5%;
+    border: 3px solid;
+}
+.test-title {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.test-name {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: right;
+}
+.test-stars {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    text-align: right;
+}
+.test-group {
+    display: inline-flex;
+    width: 80%;
+}
+.test-navigation {
+    display: inline-table;
+    width: 10%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+/**/
+
+.title-com {
+    width: max-content;
+    margin: auto;
+    padding-top: 40px;
+}
+.icon-com {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title-text-com {
+    display: inline-block;
+    vertical-align: middle;
+}
+.press-title {
+   width: max-content;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.logos {
+    width: max-content;
+    margin: auto;
+    padding-bottom: 80px;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+  padding: 0px;
+  margin: 0px 50px 0px 40px;
+}
+
+.logos-img {
+    width: auto;
+    height: 80px;
+}
+
+.logos-flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+        padding-bottom: 80px;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.logos-flex-item {
+  width: max-content;
+  height: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background-color: white;
+  color: blue;
+  padding: 20px;
+}
+
+.footer a {
+  color: blue;
+}
+
+.column.footer{
+  float: left;
+  padding: 10px;
+}
+
+.middle, .middletwo, .right {
+  width: 20%;
+}
+
+.left {
+  width: 30%;
+  font-family: "Ultra", serif;
+  font-size: 40px;
+  color: blue;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.social-icons {
+    padding: 0 0 0 35px;
+}
+.ft-social {
+    height: 27px;
+    width: auto;
+}
+
+
+  /*Respon*/
+
+@media screen and (max-width: 360px) {
+    #navbar-right a {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 686px) {
+  #navbar {
+      padding: 0;
+      margin: 0;
+  }
+  #navbar-right {
+      float: none;
+      display: block;
+      padding-top: 0px !important;
+      margin: auto;
+      text-align: center;
+  }
+  #navbar a {
+      float: none;
+      display: inline-block;
+      text-align: right;
+}
+  .study h2 {
+      font-size: 40px;
+  }
+  .practice h2 {
+      font-size: 40px;
+  }
+  .navbar-left {
+      margin-left: 0;
+      text-align: center;
+  }
+  .icon {
+      width: 100% ;
+      float: none;
+      text-align: center;
+      height: auto;
+  }
+  .imagem {
+      padding-bottom: 0;
+      padding-top: 10px;
+  }
+  .empty-space {
+      display: none; 
+  }
+  .text-community {
+      width: 100%;
+      height: auto;
+  }
+  .text-community p {
+      padding-top: 0;
+      text-align: center;
+  }
+  .press-title {
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+}
+/*testemonials*/
+@media screen and (max-width: 820px) {
+  .testimonials {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.testimonial-single {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  min-width: 220px;
+}
+.testimonials-box {
+  margin: 5%;
+  border: 3px solid;
+}
+
+.test-title {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+.test-name {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: right;
+}
+.test-stars {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  text-align: right;
+}
+.test-group {
+  display: block;
+  width: 100%;
+}
+.test-navigation {
+  display: none;
+  width: 10%;
+  text-align: center;
+  margin-top: 150px;
+}
+}
+/*press*/
+@media screen and (min-width:1351px) and (max-width: 1490px) {
+  .logos-img {
+      height: 70px;
+  }
+}
+@media screen  and (min-width:1210px) and (max-width: 1350px) {
+  .logos-img {
+      height: 60px;
+  }
+}
+@media screen  and (min-width:1075px) and (max-width: 1209px) {
+  .logos-img {
+      height: 50px;
+  }
+}
+@media screen  and (min-width: 970px) and (max-width: 1074px) {
+  .logos-img {
+      height: 40px;
+      padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 969px) {
+  .logos-img {
+      height: 55px;
+      margin: 10px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .logos-flex-item {
+  width: 100%;
+  height: max-content;
+  margin-top: 10px;
+  text-align: center;
+}
+}
+/*footer*/
+@media screen and (max-width: 840px) {
+  .column.footer.left {
+      width: 50%;
+      padding: 0 0 0 0;
+      float: left;
+      height: 136px;
+  }
+  .column.footer.middle {
+      width: 50%;
+      float: right;
+      padding: 0;
+  }
+  .column.footer.right {
+      width: 50%;
+      padding: 0;
+      float: left;
+  }
+  .social-icons {
+      padding: 0 0 0 0;
+  }
+  .footer p {
+      padding: 0px;
+  }
+}

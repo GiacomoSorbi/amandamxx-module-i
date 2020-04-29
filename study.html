@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Finantial Education">
+    <meta name="keywords" content="Finance, Investments, ISA, Pention, Stocks, Trading, Shares, Study area, Jane study">
+    <meta name="author" content="Amanda Mafra">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane</title>
+    <link rel="stylesheet" type="text/css" href="study.css" />
+</head>
+
+<body>
+    <!--Menu-->
+    <div class="sidenav">
+        <a class="home" href="#">Home</a>
+        <a class="path" href="ops.html">Paths</a>
+        <a class="guides" href="ops.html">Guides</a>
+        <a class="comm" href="ops.html">Community</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <a class="fav" href="ops.html">Favorites</a>
+        <a class="profile" href="ops.html">Profile</a>
+
+        <br />
+        <br />
+
+        <div class="social">
+            <p>Be Social!</p>
+            <a href="http://www.facebook.com" target="_blank"> <img src="./IMG/facebook.png" alt="Jane Facebook"/></a>
+            <a href="http://www.instagram.com" target="_blank"> <img src="./IMG/instagram.png" alt="Jane Instagram"/></a>
+            <a href="http://www.twitter.com" target="_blank"> <img src="./IMG/twitter.png" alt="Jane Twitter"/></a>
+            <a href="http://www.youtube.com" target="_blank"> <img src="./IMG/youtube.png" alt="Jane Youtube"/></a>
+        </div>
+    </div>
+
+
+    <!--Main page-->
+    <div class="main">
+
+        <!--Top-->
+        <div class="one">
+
+            <div class="top">
+                <div class="box1">
+                    <h1>Home</h1>
+                </div>
+                <div class="topnav">
+                    <div class="search-container">
+                        <form action="ops.html">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!--guides-->
+
+        <div class="two">
+            <h2>Your previous guides:</h2>
+            <div class="pre-guides">
+                <ul>
+                    <li><img src="./IMG/guide1.png" alt="Isa course guide Jane"/>
+                    </li>
+                    <li><img src="./IMG/guide2.png" alt="Pention course guide Jane" />
+                    </li>
+                    <li><img src="./IMG/guide3.png" alt="Shares course guide Jane"/>
+                    </li>
+                    <li><img src="./IMG/guide4.png" alt="Savings course guide Jane" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--Path slider-->
+        <div class="three">
+            <h2>Your path:</h2>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="100" value="35" class="slider" id="myRange" />
+            </div>
+            <script>
+                var slider = document.getElementById("myRange");
+                var output = document.getElementById("demo");
+                output.innerHTML = slider.value;
+
+                slider.oninput = function () { output.innerHTML = this.value; };
+            </script>
+        </div>
+
+        <!--videos-->
+        <div class="four">
+            <h2>Learn more about:</h2>
+            <div class="videos">
+                <div class="box1">
+                    <b>ISA</b>
+                    <p>An ISA – or Individual Savings Account – is a ‘tax-benefit’ way of investing your money.</p>
+                </div>
+                <div class="box2">
+                    <img src="./IMG/video1.png" alt="video Isa course Jane" />
+                    <b>Video</b>
+                    <p>What is an ISA?</p>
+                </div>
+                <div class="box3">
+                    <img src="./IMG/video2.png" alt="video Isa course Jane"/>
+                    <b>Video</b>
+                    <p>What types of ISA exist?</p>
+                </div>
+            </div>
+
+            <div class="videos">
+                <div class="box1">
+                    <b>Pentions</b>
+                    <p>Pentions is a good way to plan your retirement.</p>
+                </div>
+                <div class="box2">
+                    <img src="./IMG/video3.png" alt="video Pention course Jane"/>
+                    <b>Video</b>
+                    <p>When to start planning my retirement?</p>
+                </div>
+                <div class="box3">
+                    <img src="./IMG/video4.png" alt="video Pention course Jane"/>
+                    <b>Video</b>
+                    <p>How to calculate how much money you will need to start saving.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <a href="about.html">About</a>
+                <a href="ops.html">FAQ</a>
+                <a href="ops.html">Contact</a>
+                <a href="ops.html">Blog</a>
+                <a href="ops.html">Community</a>
+            </div>
+        </footer>
+    </div>
+    </class>
+</body>
+
+</html>

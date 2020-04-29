@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Ultra&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+a{
+    color: blue;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.logo{
+    font-family: "Ultra", serif;
+    font-size: 50px;
+    color: blue; 
+    margin: 30px;
+}
+
+.logo a{
+  color: blue;
+  text-decoration: none;
+}
+
+form {border: 3px solid blue;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #ffccff;
+  color: blue;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+.container {
+  padding: 16px;
+  color: blue;
+}
+
+.container.two {
+    padding: 26px;
+    background-color: white;
+    text-align: right;
+  }
+

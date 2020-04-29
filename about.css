@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Ultra&display=swap");
+
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .container {
+    padding: 64px;
+  }
+
+  .container2{
+      padding: 64px;
+      background-color: blue;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-big {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-small {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .title-font {
+    font-size: 48px;
+    color: blue;
+  }
+
+  .title-font2 {
+    font-size: 48px;
+    color:white;
+  }
+
+  .body-font {
+      color: blue;
+      line-height: 1.6;
+  }
+
+  .body-font a{
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  .body-font2{
+      color: white;
+      line-height: 1.6;
+  }
+
+  .body-font2 a{
+    text-decoration: underline;
+    color: white
+  }
+
+  .logo-font {
+    font-family: "Ultra", serif;
+    font-size: 100px;
+    color: blue
+  }
+  .logo-font2{
+    font-family: "Ultra", serif;
+    font-size: 40px;
+    color: blue
+  }
+  .logo-font3{
+      font-size: 12px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+  }
+  
+  li{
+    float: left;
+    padding: 0px;
+    margin: 0px 50px 0px 40px;
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+  }
+
+  button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  /*Footer*/
+ 
+  .footer a {
+    color: blue;
+  }
+  
+  .column.footer{
+    float: left;
+    padding: 10px;
+    color: blue;
+  }
+  
+  .middle, .middletwo, .right {
+    width: 20%;
+  }
+  
+  .left {
+    width: 30%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .social-icons {
+      padding: 0 35px;
+      display: inline-flex;
+  }
+
+  /*Respon*/
+
+  @media screen and (max-width: 1000px) {
+    .column-big,
+    .column-small {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+
+  /*OPS Page*/
+
+.ops.logo {
+  font-family: "Ultra", serif;
+  font-size: 100px;
+  color: blue;
+  text-align:center;
+}
+
+.ops {
+  font-size: 20px;
+  color: blue;
+  text-align:center;
+}
+.ops a{
+  color: #ff66ff;
+  text-decoration: none;
+}
+.ops a:hover{
+  color: #ff66ff;
+  text-decoration: none;
+  text-shadow: 1px 1px blue;
+  transition: 0.5s;
+}
