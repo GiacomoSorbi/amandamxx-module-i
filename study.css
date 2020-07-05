@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Ultra&display=swap");
 
-*, *:before, *:after {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
 body {
@@ -22,7 +24,7 @@ body {
   left: 0;
   background-color: blue;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 50px;
   color: white;
 }
 
@@ -48,9 +50,10 @@ body {
 
 .sidenav a.comm {
   cursor: url("./IMG/06.png"), auto;
+  margin-bottom: 50px;
 }
 
-.sidenav a.fav{
+.sidenav a.fav {
   cursor: url("./IMG/05.png"), auto;
 }
 
@@ -61,12 +64,14 @@ body {
 .sidenav a:hover {
   color: #ffccff;
 }
-
+.social {
+    margin-top: 100px;
+}
 .social a {
   display: inline;
 }
 
-.social p{
+.social p {
   padding: 0px 0px 0px 16px;
 }
 
@@ -75,39 +80,41 @@ body {
 .main {
   margin-left: 250px; /* Same as the width of the sidenav */
 }
-.one, .two, .four {
+.one,
+.two,
+.four {
   padding-left: 20px;
   padding-right: 20px;
 }
 .three {
-    clear: both;
-    padding: 15px 0 15px 20px;
+  clear: both;
+  padding: 15px 0 15px 20px;
 }
 .one h1 {
   font-size: 40px;
   text-align: left;
 }
 .pre-guides ul {
-    list-style-type: none;
+  list-style-type: none;
   margin: 0px;
   padding: 0px;
 }
 .pre-guides ul li {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
 }
 .pre-guides ul li img {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
 footer {
-    clear: both;
+  clear: both;
 }
-.footer{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    text-align: center;
+.footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .footer a {
   color: blue;
@@ -115,7 +122,6 @@ footer {
   margin: 0 0 0 32px;
   transition: color 1s;
 }
-
 
 /*slider */
 
@@ -131,8 +137,8 @@ footer {
   background: #ffccff;
   outline: none;
   opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
 }
 
 .slider:hover {
@@ -145,7 +151,7 @@ footer {
   width: 23px;
   height: 24px;
   border: 0;
-  background: url('./IMG/tracksmile.png');
+  background: url("./IMG/tracksmile.png");
   cursor: pointer;
 }
 
@@ -153,7 +159,7 @@ footer {
   width: 23px;
   height: 24px;
   border: 0;
-  background: url('./IMG/tracksmile.png');
+  background: url("./IMG/tracksmile.png");
   cursor: pointer;
 }
 
@@ -171,36 +177,36 @@ form {
 .topnav {
   padding-top: 27px;
 }
-.topnav input[type=text] {
-    padding-bottom: 11px;
-    margin-left: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    max-width: 50%;
-    border: none;
+.topnav input[type="text"] {
+  padding-bottom: 11px;
+  margin-left: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  max-width: 50%;
+  border: none;
 }
 
 .topnav .search-container button {
-    float: right;
-    margin: 8px;
-    background: #ffccff;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-    padding-bottom: 8px;
-    margin-top: 2px;
-    padding-top: 8px;
-    margin-right: 2px;
+  float: right;
+  margin: 8px;
+  background: #ffccff;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 8px;
+  margin-top: 2px;
+  padding-top: 8px;
+  margin-right: 2px;
 }
 
 .topnav .search-container button:hover {
   opacity: 0.6;
   transition: 0.5s;
-
 }
 .search-container {
-    float: right;
-    width: auto;
+  float: right;
+  width: auto;
+  margin-top: 20px;
 }
 
 /*videos*/
@@ -213,23 +219,22 @@ form {
 }
 
 .videos img {
-    width: 100%;
+  width: 100%;
 }
-
 
 /* Respons */
 @media screen and (max-width: 767px) {
-
   .sidenav {
     padding-top: 15px;
   }
   .sidenav a {
     font-size: 18px;
   }
-   .topnav .search-container {
+  .topnav .search-container {
     float: none;
   }
-  .topnav input[type=text], .topnav .search-container button {
+  .topnav input[type="text"],
+  .topnav .search-container button {
     float: none;
     display: block;
     text-align: left;
@@ -238,60 +243,58 @@ form {
     padding: 14px;
   }
   .one .top .box1 h1 {
-        font-size: 37px;
+    font-size: 37px;
   }
 
   .sidenav {
-        width: 125px;
+    width: 125px;
   }
 
   .sidenav a {
-        font-size: 18px
+    font-size: 18px;
   }
 
   .main {
-        margin-left: 125px;
+    margin-left: 125px;
   }
 
   .videos {
-        display: block;
-        clear: both;
+    display: block;
+    clear: both;
   }
 
   .videos:nth-child(3) {
-        padding-top:30px;
+    padding-top: 30px;
   }
 
   .videos img {
-        width: 80%;
+    width: 80%;
   }
 
-  .box2, .box3 {
-        float: left;
-        width: 50%;
+  .box2,
+  .box3 {
+    float: left;
+    width: 50%;
   }
-
 }
-  
+
 @media screen and (max-width: 992px) and (min-width: 768px) {
+  .videos {
+    display: block;
+    clear: both;
+  }
 
+  .videos:nth-child(3) {
+    padding-top: 30px;
+  }
 
-    .videos {
-        display: block;
-        clear: both;
-    }
+  .videos img {
+    width: 80%;
+  }
 
-    .videos:nth-child(3) {
-        padding-top:30px;
-    }
-
-    .videos img {
-        width: 80%;
-    }
-
-    .box2, .box3 {
-        float: left;
-        width: 50%;
-    }
-
+  .box2,
+  .box3 {
+    float: left;
+    width: 50%;
+  }
 }
