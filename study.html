@@ -13,24 +13,13 @@
 
 <body>
     <!--Menu-->
-    <div class="sidenav">
+    <nav class="sidenav">
         <a class="home" href="#">Home</a>
         <a class="path" href="ops.html">Paths</a>
         <a class="guides" href="ops.html">Guides</a>
         <a class="comm" href="ops.html">Community</a>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
         <a class="fav" href="ops.html">Favorites</a>
         <a class="profile" href="ops.html">Profile</a>
-
-        <br />
-        <br />
-
         <div class="social">
             <p>Be Social!</p>
             <a href="http://www.facebook.com" target="_blank"> <img src="./IMG/facebook.png" alt="Jane Facebook"/></a>
@@ -38,16 +27,16 @@
             <a href="http://www.twitter.com" target="_blank"> <img src="./IMG/twitter.png" alt="Jane Twitter"/></a>
             <a href="http://www.youtube.com" target="_blank"> <img src="./IMG/youtube.png" alt="Jane Youtube"/></a>
         </div>
-    </div>
+    </nav>
 
 
     <!--Main page-->
-    <div class="main">
+    <main class="main">
 
         <!--Top-->
-        <div class="one">
+        <section class="one">
 
-            <div class="top">
+            <nav class="top">
                 <div class="box1">
                     <h1>Home</h1>
                 </div>
@@ -59,15 +48,15 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            </nav>
 
 
-        </div>
+        </section>
 
 
         <!--guides-->
 
-        <div class="two">
+        <section class="two">
             <h2>Your previous guides:</h2>
             <div class="pre-guides">
                 <ul>
@@ -81,10 +70,10 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
 
         <!--Path slider-->
-        <div class="three">
+        <section class="three">
             <h2>Your path:</h2>
             <div class="slidecontainer">
                 <input type="range" min="1" max="100" value="35" class="slider" id="myRange" />
@@ -96,10 +85,10 @@
 
                 slider.oninput = function () { output.innerHTML = this.value; };
             </script>
-        </div>
+        </section>
 
         <!--videos-->
-        <div class="four">
+        <section class="four">
             <h2>Learn more about:</h2>
             <div class="videos">
                 <div class="box1">
@@ -134,19 +123,16 @@
                     <p>How to calculate how much money you will need to start saving.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <footer>
-            <div class="footer">
+    
+            <footer class="footer">
                 <a href="about.html">About</a>
                 <a href="ops.html">FAQ</a>
                 <a href="ops.html">Contact</a>
                 <a href="ops.html">Blog</a>
                 <a href="ops.html">Community</a>
-            </div>
-        </footer>
-    </div>
-    </class>
+            </footer>
+    </main>
 </body>
-
 </html>
